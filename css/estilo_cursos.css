@@ -1,0 +1,106 @@
+#centro-Cursos{
+    background: linear-gradient(90deg,  #0d2b49, #22609d);
+    padding: 30px;
+}
+
+#fundo-Cursos{
+    width: 90%;
+    background-color: rgb(0, 18, 33);
+    margin: 0 auto;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    padding: 40px 20px ;
+}
+
+#video-Curso{
+    width: 70%;
+    text-align: center;
+}
+
+#video-Curso iframe{
+    box-shadow: 0 0 10px #17a2b8;
+    border-radius: 10px;
+    width: 80%;
+    height: 400px;
+}
+
+#aulas-Curso{
+    width: 25%;
+}
+
+#aulas-Curso ul{
+    width: 100%;
+    list-style-type: none;
+}
+#aulas-Curso ul li{
+    width: 100%;
+}
+
+#btn-sair{
+    margin: 0 10px;
+}
+
+.btn_marcar{
+    font-size: 1.5em;
+}
+
+@media (width < 1250px){
+    #fundo-Cursos{
+        width: 90%;
+        margin: 0 auto;
+        display: block;
+        padding: 40px 10px;
+    }
+    
+    #video-Curso{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    #video-Curso iframe{
+        margin-bottom: 20px;
+        height: 350px;
+    }
+    
+    #aulas-Curso{
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+@media (width < 998px){
+
+    #video-Curso iframe{
+        width: 92%;
+        height: 300px;
+    }
+}
+
+@media (width < 580px){
+
+    #fundo-Cursos{
+        width: 96%;
+    }
+
+    #video-Curso iframe{
+        width: 96%;
+        height: 250px;
+    }
+}
+
+@media (width < 480px){
+
+    #video-Curso iframe{
+        height: 200px;
+    }
+}
+
+@media (width < 380px){
+
+    #video-Curso iframe{
+        height: 160px;
+    }
+}

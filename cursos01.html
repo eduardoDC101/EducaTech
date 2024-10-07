@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="pr-BR">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--Link Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!--Link Icones-->
+    <script src="https://kit.fontawesome.com/1758c2510a.js" crossorigin="anonymous"></script>
+    
+    <!--Link Fontes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    
+    <!--Link  Javascript-->
+    <script type="text/javascript" src="js/scripts.js"></script>
+    
+    <!--Link Css-->
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/estilo_cursos.css">
+    <link rel="icon" href="imgs/icone.png">
+
+    <title>EducaTech</title>
+
+  </head>
+  <body>
+
+    <!--Inicio do Header/Cabeçalho-->
+    <header id="cabecalho" class="sticky-top">
+        <nav id="barra-navegacao" class="navbar navbar-expand-lg navbar-light">
+            <div class="container p-2">
+                
+                <a id="logo" class="navbar-brand ">
+                    <img src="imgs/logo.png" alt="Logo do Istituto Federal de São Paulo" >
+                </a>
+
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#barra-navegacao-id">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse " id="barra-navegacao-id">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="index.html#cabecalho" class="text-light nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="index.html#cursos" class="text-light nav-link">Cursos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="index.html#sobreprojeto" class="text-light nav-link">Sobre</a>
+                        </li>
+                        <li id="btn-sair" class="nav-item">
+                            <a class="btn btn-primary" href="index.html" class="text-light nav-link">Sair</a>
+                        </li>
+                        
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+    </header> <!--Fim do Header/Cabeçalho-->
+
+    <main id="centro-Cursos">
+        <div id="fundo-Cursos">
+            <section id="video-Curso">
+                <iframe id="video-iframe" src="https://www.youtube.com/embed/S9uPNppGsGo?si=RbrOMAkmPFzsMRyM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <div class="pt-4">
+                    <button class="btn btn-info btn_marcar">Concluir Aula</button>
+                </div>
+            </section>
+            <section id="aulas-Curso">
+                <ul>
+                    <li>
+                        <button class="btn btn-outline-info w-100 text-left" onclick="mudarVideo('S9uPNppGsGo?si=RbrOMAkmPFzsMRyM')">Nome da Aula 01</button>
+                    </li>
+                    <li>
+                        <button class="btn btn-outline-info w-100 text-left" onclick="mudarVideo('Mp0vhMDI7fA?si=CVYmUMgusmGBEg33')">Nome da Aula 02</button>
+                    </li>
+                    <li>
+                        <button class="btn btn-outline-info w-100 text-left" onclick="mudarVideo('VuKvR1J2LQE?si=Zno6HaJvf1hfNZVe')">Nome da Aula 03</button>
+                    </li>
+                    <li>
+                        <button class="btn btn-outline-info w-100 text-left" onclick="mudarVideo('31llNGKWDdo?si=8cRPVtTcrAGtqq-X')">Nome da Aula 04</button>
+                    </li>
+                    <li>
+                        <button class="btn btn-outline-info w-100 text-left" onclick="mudarVideo('Mp0vhMDI7fA?si=CVYmUMgusmGBEg33')">Nome da Aula 05</button>
+                    </li>
+                    <li>
+                        <button class="btn btn-outline-info w-100 text-left" onclick="mudarVideo('Mp0vhMDI7fA?si=CVYmUMgusmGBEg33')">Nome da Aula 06</button>
+                    </li>
+                    <li>
+                        <button class="btn btn-outline-info w-100 text-left" onclick="mudarVideo('Mp0vhMDI7fA?si=CVYmUMgusmGBEg33')">Nome da Aula 07</button>
+                    </li>
+                    <li>
+                        <button class="btn btn-outline-info w-100 text-left" onclick="mudarVideo('Mp0vhMDI7fA?si=CVYmUMgusmGBEg33')">Nome da Aula 08</button>
+                    </li>
+                    <li>
+                        <button class="btn btn-outline-info w-100 text-left" onclick="mudarVideo('Mp0vhMDI7fA?si=CVYmUMgusmGBEg33')">Nome da Aula 09</button>
+                    </li>
+                    <li>
+                        <button class="btn btn-outline-info w-100 text-left" onclick="mudarVideo('Mp0vhMDI7fA?si=CVYmUMgusmGBEg33')">Nome da Aula 10</button>
+                    </li>
+                </ul>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div id="fundo-flex-footer" class="text-center w-100">
+            <a href="https://www.instagram.com/educatech_ifsp/" target="_blank"><i class="fa-brands fa-instagram"></i> Acompanhe EducaTech</a>
+            <a href="https://youtube.com/@educatechifsp?si=rLl0Af1rxtG2P14c" target="_blank"><i class="fa-brands fa-youtube"></i> Assista EducaTech</a>
+            <p>© 2024 Educatech. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+    
+
+    <!--Link Bootstrap-->
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  </body>
+</html>
+
+
+<!--<button onclick="mudarVideo('Mp0vhMDI7fA?si=CVYmUMgusmGBEg33')">Vídeo 2</button>
+<button onclick="mudarVideo('VuKvR1J2LQE?si=Utg2guRHzcxFf6Dx')">Vídeo 3</button>-->
